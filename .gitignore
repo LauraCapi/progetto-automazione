@@ -1,0 +1,22 @@
+# Preferenze personali di ogni componente: NON vanno su GitHub
+miePersonalizzazioni.md
+
+# LaTeX (file intermedi: si rigenerano a ogni compilazione)
+relazione/*.aux
+relazione/*.bbl
+relazione/*.blg
+relazione/*.log
+relazione/*.out
+relazione/*.fls
+relazione/*.fdb_latexmk
+relazione/*.synctex.gz
+
+# Python e Node, quando ci saranno
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+
+# Sistema
+.DS_Store
